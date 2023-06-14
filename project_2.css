@@ -1,0 +1,214 @@
+body {
+    box-sizing: border-box;
+    width: 99vw;
+    background-color: burlywood;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.478);
+    height: 90px;
+    width: 100vw;
+    position: relative;
+    right: 8px;
+    bottom: 9px;
+    align-items: center;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+
+nav>a:hover {
+    color: rgb(108, 40, 40);
+}
+
+.main {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 34rem;
+}
+
+.tagline {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    position: relative;
+    bottom: 31rem;
+}
+
+.image {
+    height: 540px;
+    opacity: 0.5;
+    background: url('Mirrors-play-a-standout-role-in-accentuating-the-expansive-feel-of-Klap-2.jpg');
+    background-repeat: no-repeat;
+}
+
+.moto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 31rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+}
+
+.foodmenu {
+    background-color: rgba(255, 255, 255, 0.447);
+    height: 800px;
+    width: 75%;
+    margin: auto auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 5px rgb(108, 40, 40);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 50px;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 220%;
+}
+
+.img {
+    width: 320px;
+    height: 200px;
+    border-radius: 30px;
+    margin: 80px 0px 25px 50px;
+}
+
+.food {
+    border-radius: 30px;
+    width: 390px;
+    height: 200px;
+    position: relative;
+    top: 210px;
+    right: 330px;
+    margin-top: 10px;
+}
+
+.fooditems {
+    list-style: none;
+    position: relative;
+    width: 100%;
+    left: 45%;
+    bottom: 28%;
+}
+
+.dish {
+    font-weight: bolder;
+    font-size: 150%;
+    display: flex;
+    margin-top: -20px;
+}
+
+.description {
+    display: flex;
+    font-size: 110%;
+    position: relative;
+    bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 120%;
+    position: relative;
+    bottom: 90px;
+    left: 38%;
+}
+
+.drinkmenu {
+    background-color: rgba(255, 255, 255, 0.447);
+    height: 800px;
+    width: 75%;
+    margin: auto auto;
+    margin-top: 110px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px 5px rgb(108, 40, 40);
+    margin-bottom: 80px;
+}
+
+.pub {
+    width: 410px;
+    height: 230px;
+    margin-left: 45px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.mojitos {
+    width: 380px;
+    height: 220px;
+    position: relative;
+    top: 32%;
+    right: 40%;
+    border-radius: 15px;
+}
+
+h2 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 220%;
+}
+
+.drinkitems {
+    list-style: none;
+    position: relative;
+    left: 45%;
+    bottom: 30%;
+}
+
+.drink {
+    font-weight: bolder;
+    font-size: 150%;
+    display: flex;
+    margin-top: -20px;
+}
+
+.lorem {
+    display: flex;
+    font-size: 110%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.rate {
+    font-weight: bold;
+    font-size: 120%;
+    position: relative;
+    bottom: 90px;
+    left: 38%;
+}
+
+.mobile {
+    position: relative;
+    bottom: 31rem;
+    left: 37rem;
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.mobile:hover {
+    color: rgb(108, 40, 40);
+}
